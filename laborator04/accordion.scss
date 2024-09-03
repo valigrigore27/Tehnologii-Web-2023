@@ -1,0 +1,54 @@
+﻿$color_1: #444;
+$color_2: red;
+$color_3: blue;
+$color_4: orange;
+$color_5: darkblue;
+$color_6: #444444;
+$background-color_1: #eee;
+$background-color_2: #ccc;
+$background-color_3: white;
+
+.accordion {
+	background-color: $background-color_1;
+	color: $color_1;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+	&:hover {
+		background-color: $background-color_2;
+	}
+}
+.active {
+	background-color: $background-color_2;
+}
+.panel {
+	padding: 0 18px;
+	display: none;
+	background-color: $background-color_3;
+	overflow: hidden;
+}
+.red {
+	font-weight: bold;
+	color: $color_2;
+}
+.blue {
+	font-weight: bold;
+	color: $color_3;
+}
+.orange {
+	font-weight: bold;
+	color: $color_4;
+}
+.text {
+	font-size: medium;
+	font-weight: lighter;
+	color: $color_5;
+}
+.title {
+	color: $color_6;
+}
